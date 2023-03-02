@@ -30,7 +30,9 @@
   font-weight: bold;
   background-color: #40b3ec;
   color: #fff;
-  border-bottom-color: unset;
+  border-bottom-color: #40b3ec;
+  box-shadow: 8px 4px 6px #40b3eca6;
+  transform: translateX(-2px) translateY(-1px);
 }
 
 .sheen:hover::before {
