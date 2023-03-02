@@ -13,12 +13,13 @@
     <h1 class="post-title" itemprop="name headline"><a class="post-title-link" itemprop="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h1>
     <div class="post-meta">
       <span><?php _e('<i class="iconfont icon-time"></i> '); ?><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date(); ?></time></span>
-      <span>
+      <!-- <span>
         <i class="iconfont icon-view"></i>
         <?php
         i18n('浏览量 ');
         getPostView($this);
-        ?></span>
+        ?>
+      </span> -->
       <span itemprop="interactionCount">
         <a itemprop="discussionUrl" href="<?php $this->permalink() ?>#comments">
           <i class="iconfont icon-Comments"></i>

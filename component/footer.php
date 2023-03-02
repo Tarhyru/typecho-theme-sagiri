@@ -1,7 +1,7 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 
 <footer id="footer" role="contentinfo">
-    <p><i class="iconfont icon-view"></i> <?php echo _i18n('浏览量') . ' : ' . siteViewer(); ?></p>
+    <!-- <p><i class="iconfont icon-view"></i> <?php echo _i18n('浏览量') . ' : ' . siteViewer(); ?></p> -->
     <p id="live-time"></p>
     <p>
         &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.
