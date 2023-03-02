@@ -23,7 +23,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 			</section>
 			<?php $this->pageNav('<i class="iconfont icon-prev-m" aria-label="prev"></i>', '<i class="iconfont icon-next-m" aria-label="next"></i>', '2', '...'); ?>
 		</div>
-		<?php if (isPc()) $this->need('component/sidebar.php'); ?>
+		<?php if (isPc()) $this->need('index-sidebar.php'); ?>
 	</div>
 </div>
 

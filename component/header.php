@@ -4,7 +4,7 @@
 <html class="no-js" lang="<?php i18nLang() ?>">
 
 <head>
-
+    <meta name="referrer" content="never">
     <meta charset="<?php $this->options->charset(); ?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">

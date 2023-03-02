@@ -77,7 +77,7 @@ function videoTagToHtml($content)
 }
 
 
-function login2view($content, $hasLogin = false)
+function login2view($hasLogin = true, $content)
 {
   if ($hasLogin) {
     $content = preg_replace("/\[lhide\](.*?)\[\/lhide\]/sm", '$1', $content);
