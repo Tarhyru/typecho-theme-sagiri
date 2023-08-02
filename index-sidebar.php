@@ -77,10 +77,10 @@
                     友情链接
                 </span>
             </div>
-            <div class="sidebar-list">
-            <ul class="sidebar-list-body sidebar-list-items">
-            <?php Links_Plugin::output(); ?>
-            </ul>
+            <div class="sidebar-list" style="max-height: 200px;overflow-y: auto;">
+                <ul class="sidebar-list-body sidebar-list-items">
+                    <?php Links_Plugin::output(); ?>
+                </ul>
             </div>
         </div>
         <?php if (!empty($this->options->siderbarOption)) : ?>
